@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* BODY */
+body{
+  font-family: 'Inter',sans-serif;
+  overflow: hidden;
+}
+
+/* REST */
+button{
+  background-color: transparent;
+  border:none;
+}
+button:focus{
+  outline: none;
+}
+
+/* WRAPPER */
+.wrapper{
+  height: 100vh;
+  width: 100%;
+  background: url('./IMG/bg_img.jpeg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+/* LEFT-MENU */
+.left_menu{
+  height: 100%;
+  width: 100px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo{
+  background-color: #cc4945;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  }
+
+  .logo_circle{
+    width: 50%;
+    height: 50%;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+
+  .logo_name{
+    margin-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+  }
+
+  /* SOCIAL-ICONS-LIST */
+  .social_icons_list{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+  }
+  .social_icons_list_item{
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .social_icons_list_item:hover{
+    border: 2px solid white;
+    border-radius: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    padding-left: 11px;
+    padding-top: 7px;
+  }
+  .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 400;
+    color: #5f5f5f;
+  }
+  .icon:hover{
+    color: white !important;
+  }
+  /* .icon.active{
+    color: white !important;
+  } */
+
+  /* NAV */
+  .nav{
+    width: 100%;
+    height: 100px;
+  }
+  .nav_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .nav_link_list{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+  }
+
