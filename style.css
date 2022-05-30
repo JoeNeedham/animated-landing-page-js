@@ -179,7 +179,7 @@ button:focus{
   .red_box_content > span:nth-child(1){
   font-size: 12px;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 4px;
   }
   .red_box_content > span:nth-child(2){
     font-size: 28px;
