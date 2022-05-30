@@ -123,4 +123,169 @@ button:focus{
     list-style-type: none;
     cursor: pointer;
   }
+  .nav_link_list li{
+    padding: 1.2rem;
+  }
+  .nav_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #afafaf;
+  }
+  .nav_link.active{
+    color: white;
+    border-top: 2px solid red;
+    padding-top: 7px;
+  }
+  .nav_link:hover{
+    color: white;
+  }
+  .search_icon{
+    font-size: 18px;
+    color: #eee;
+    font-weight: 500 !important;
+  }
+
+  /* LARGE-TEXT */
+  .large_text{
+    color: #eee;
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+  .larger_text_content{
+    position: absolute;
+    left: 10%;
+    top: 28%;
+  }
+  /* RED-BOX */
+  .red_box{
+    margin-top: 1rem;
+    width: 180px;
+    height: 120px;
+    background-color: #ca4c48;
+    padding: 2rem;
+  }
+  .red_box_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .red_box_content > span:nth-child(1){
+  font-size: 12px;
+  color: white;
+  margin-bottom: 30px;
+  }
+  .red_box_content > span:nth-child(2){
+    font-size: 28px;
+    color: rgb(243, 243, 243);
+    text-transform: capitalize;
+    margin-bottom: 4px;
+  }
+  /* SEE-PHOTOS */
+  .see_photos{
+    font-size: 12px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    }
+    .see_photos::before{
+    display: inline-block;
+    content: "";
+    border-top: 1.9px solid rgb(255, 255, 255);
+    width: 25px;
+    margin: 0 10px 0 0;
+    transform: translateY(-3px);
+    }
+    /* DESC-CONTENT */
+    .desc_content{
+      position: absolute;
+      top: 30%;
+      right: 5%;
+      height: 400px;
+      width: 300px;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .desc_content > p{
+      width: 230px;
+      color: rgb(219, 219, 219);
+      font-size: 14px;
+      letter-spacing: 0.9px;
+      }
+    .desc_content > p > span{
+      color: #ca4c48;
+    }
+    .weddings, .modelings{
+      display: flex;
+      flex-direction: column;
+    }
+    .weddings > span:nth-child(1), .modelings  > span:nth-child(1) {
+      color: #afafaf;
+      margin-bottom: 7px;
+      font-size: 13px;
+    }
+    .weddings > span:nth-child(2), .modelings  > span:nth-child(2){
+      font-size: 15px;
+      color: #eee;
+      text-transform: capitalize;
+      letter-spacing: 0.9px;
+    }
+    .fashion_text{
+      font-size: 20px;
+      color: white;
+      text-transform: capitalize;
+      letter-spacing: 0.7px;
+    }
+    .fashion_text::before{
+      display: inline-block;
+      content: "";
+      border-top: 2px solid #ca4c48;
+      width: 25px;
+      transform: translateY(-5px);
+    }
+    /* SLIDE */
+    .slide {
+      letter-spacing: 4px;
+    }
+    .slide > span:nth-child(1){
+      color: #ca4c48;
+      font-size: 13px;
+    }
+    .slide > span:nth-child(2){
+      color: rgb(212, 212, 212);
+      font-size: 13px;
+    }
+    
+    /* OVERLAY */
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background: rgb(0,0,0);
+      background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(16,26,61,1) 50%, rgba(33,17,44,1) 100%);
+      top: 0%;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #eee;
+      }
+      .overlay h1 {
+        font-size: 100px;
+        letter-spacing: 20px;
+      }
+      .overlay span {
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+      }
 
